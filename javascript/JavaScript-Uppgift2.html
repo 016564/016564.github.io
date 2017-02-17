@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Namnlöst dokument</title>
+</head>
+
+<body>
+	<p> <b id='nummer'>Tryck på knappen "Change Number"</b> </p>
+	<input type='button' onClick='changeNumber()' value='Change Number'/>
+    
+	<script type="text/javascript">
+	function changeNumber()
+	{
+		do
+		{
+			var siffra = prompt("Vilken siffra vill du ha?");
+			var värde = parseInt(siffra);
+			if (värde - 1 == värde - 1)
+			{
+				document.getElementById('nummer').innerHTML = siffra;
+			}
+		}while(värde - 1 != värde -1)
+	}
+	
+	</script>
+</body>
+</html>
