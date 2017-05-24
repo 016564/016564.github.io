@@ -544,8 +544,12 @@ h5 {
 		width:100%;
 	}
 	
+	.faktaruta {
+		margin:5%;
+	}
+	
 	img{
-		width:60%;
+		width:55%;
 	}
 	#headImg {
 		width:100%;
