@@ -532,12 +532,12 @@ h5 {
 	}
 	
 	article {
-		height:950px;
+		height:975px;
 	}
 	
 	#articleV {
 		background-color:#CF0;
-		height:375px;
+		height:400px;
 		width:100%;
 	}
 	
@@ -559,7 +559,7 @@ h5 {
 	}
 	
 	.scrollbar {
-		height:300px;
+		height:400px;
 	}
 	
 	.dropdownA {
