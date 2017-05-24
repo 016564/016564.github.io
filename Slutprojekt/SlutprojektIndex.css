@@ -501,6 +501,7 @@ h5 {
 		display:none;
 	}
 }
+/* Standard för mobil */
 @media screen and (max-width: 480px) {
 	
 	#top {
@@ -556,7 +557,7 @@ h5 {
 	}
 	
 	.scrollbar {
-		height:575px;
+		height:400px;
 	}
 	
 	.dropdownA {
